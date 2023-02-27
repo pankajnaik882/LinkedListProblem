@@ -13,8 +13,7 @@ namespace LinkedListDemo
             link.Add(80);
             link.Add(50);
             link.Add(10);
-
-            //link.display();
+            link.display();
         }
     }
 }
