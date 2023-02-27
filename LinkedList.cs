@@ -9,7 +9,7 @@ namespace LinkedListDemo
     public class LinkedList
     {
         public Node head;
-        public void Add(int data)
+        public void Append(int data)
         {
             Node node = new Node(data);
 
