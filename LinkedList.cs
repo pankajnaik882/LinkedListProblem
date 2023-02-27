@@ -89,5 +89,27 @@ namespace LinkedListDemo
             this.head = this.head.next;
             return this.head;
         }
+
+        // Last value Remove..............................
+        public Node RemoveLastNode()
+        {
+            if (head == null)
+            {
+                return null;
+            }
+            if (head.next == null)
+            {
+                return null;
+            }
+            Console.WriteLine("When Remove Last element");
+            Node newNode = head;
+            while (newNode.next.next != null)
+            {
+                newNode = newNode.next;
+            }
+            newNode.next = null;
+            return head;
+        }
+
     }
 }
