@@ -9,11 +9,13 @@ namespace LinkedListDemo
         {
 
             LinkedList linked = new LinkedList();
-            linked.Append(56); // add a elemt at last postion Append is nothinf act as Add () method
+            linked.Append(56); // add a element at last postion Append is nothinf act as Add () method
             linked.Append(30);
             linked.Append(70);
             linked.Display();
             linked.InsertAtParticularPosition(2, 40);
+            linked.Display();
+            linked.RemoveFirstNode();
             linked.Display();
         }
     }
