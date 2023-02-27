@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace LinkedListDemo
@@ -15,6 +16,8 @@ namespace LinkedListDemo
             linked.Display();
             int a = linked.Search(30);
             Console.WriteLine("index position of element is :" + a);
+            linked.InsertAtParticularPosition(a + 1, 40);
+            linked.Display();
         }
     }
 }
