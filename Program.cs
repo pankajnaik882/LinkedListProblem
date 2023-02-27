@@ -7,13 +7,12 @@ namespace LinkedListDemo
     {
         public static void Main(String[] args)
         {
-            
-            LinkedList link = new LinkedList();
-            link.Add(30);
-            link.Add(80);
-            link.Add(50);
-            link.Add(10);
-            link.display();
+
+            LinkedList linked = new LinkedList();
+            linked.Append(56); // add a elemt at last postion Append is nothinf act as Add () method
+            linked.Append(30);
+            linked.Append(70);
+            linked.display();
         }
     }
 }
